@@ -3,7 +3,7 @@ import { assets } from '../assets/assets';
 
 export default function NavBar() {
   return (
-    <div className='flex justify-between items-center mx-4 p-3 lg:mx-40 shadow-md rounded-lg my-6'>
+    <div className='bg-white flex justify-between items-center mx-4 p-3 lg:mx-40 shadow-md rounded-lg my-6'>
         {/* Logo + Name */}
         <Link to='/' className='flex gap-3 items-center'>
             <img src={assets.logo} alt={assets.logo} className='w-10 sm:w-12' />

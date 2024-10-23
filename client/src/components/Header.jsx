@@ -12,17 +12,19 @@ export default function Header() {
             </h1>
             <p className='my-4 text-[17px] text-gray-500'><b>100%</b> Automatically & Free, Enjoooooooy !</p>
 
-            <div className="mt-6">
+            <div className="flex mt-6">
                 <input type="file" id="upload-input" hidden />
-                <label htmlFor="upload-input" className='flex items-center gap-4 shadow-md hover:shadow-lg transition-all duration-300 py-2 px-3 rounded-lg cursor-pointer'>
+                <label htmlFor="upload-input" className='bg-white flex items-center gap-4 shadow-md hover:shadow-lg transition-all duration-300 p-3 rounded-lg cursor-pointer'>
                     <img src={assets.upload_icon} alt={assets.upload_icon} />
-                    <p>Upload Your Image</p>
+                    <p className="text-lg bg-gradient-to-r from-violet-600 via-indigo-600 to-sky-600 text-transparent bg-clip-text">Upload Your Image</p>
                 </label>
             </div>
         </div>
 
         {/* ----------- Right Side ----------- */}
-        <div>Right Section</div>
+        <div className='w-full max-w-96'>
+            <img src={assets.header_img} alt={assets.header_img} />
+        </div>
     </div>
   )
 }
