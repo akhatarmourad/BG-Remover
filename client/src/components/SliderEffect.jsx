@@ -17,8 +17,8 @@ export default function SliderEffect() {
 
         {/* Background Slider */}
         <div className="relative mt-14 shadow-lg rounded-2xl">
-            <img src={assets.image_w_bg} style={{ clipPath: `inset(0 ${100 - sliderPosition}% 0 0)` }} className="rounded-2xl" />
-            <img src={assets.image_wo_bg}  style={{ clipPath: `inset(0 0 0 ${sliderPosition}%)` }} className="absolute top-0 left-0 rounded-2xl" />
+            <img src={assets.image_w_bg} style={{ clipPath: `inset(0 ${100 - sliderPosition}% 0 0)` }} className="max-h-96 rounded-2xl" />
+            <img src={assets.image_wo_bg}  style={{ clipPath: `inset(0 0 0 ${sliderPosition}%)` }} className="max-h-96 absolute top-0 left-0 rounded-2xl" />
             
             <input 
                 type="range"
