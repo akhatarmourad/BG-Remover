@@ -3,7 +3,7 @@ import { assets } from '../assets/assets';
 
 export default function Footer() {
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-between gap-5 mx-4 lg:mx-40 mt-32 mb-7">
+    <div className="flex flex-col lg:flex-row items-center justify-between gap-5 mx-4 lg:mx-40 mb-7">
         {/* Logo + Name */}
         <Link to='/' className='flex gap-3 items-center'>
             <img src={assets.logo} alt={assets.logo} className='w-8' />

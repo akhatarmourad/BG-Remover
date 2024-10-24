@@ -18,3 +18,10 @@
     background-size: cover;
     cursor: col-resize;
 }
+
+.bg-layer {
+    background-image: url(./bg_layer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

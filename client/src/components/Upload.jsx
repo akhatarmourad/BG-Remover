@@ -2,7 +2,7 @@ import { assets } from '../assets/assets';
 
 export default function Upload() {
   return (
-    <div className='flex flex-col items-center justify-center'>
+    <div className='flex flex-col items-center justify-center mb-32'>
       <h1 className="mx-auto text-center font-semibold text-2xl bg-gradient-to-r from-gray-800 via-gray-600 to-gray-800 text-transparent bg-clip-text">
         Remove BG Instantly , Give It a Try !
       </h1>
