@@ -19,7 +19,7 @@ export default function Result() {
             <div className="relative overflow-hidden h-full bg-layer border rounded-2xl">
               {/* <img src={assets.image_wo_bg} alt={assets.image_wo_bg} className="rounded-2xl" /> */}
               {/* Loader */}
-              <div className="absolute top-1/2 bottom-1/2 transform translate-x-1/2 translate-y-1/2">
+              <div className="absolute right-1/2 bottom-1/2 transform translate-x-1/2 translate-y-1/2">
                 <div className="border-4 border-indigo-500 rounded-full h-10 w-10 border-t-transparent animate-spin"></div>
               </div>
             </div>
