@@ -1,45 +1,58 @@
 # Image Background AI Remover
 
-A feature-rich Spotify clone built using React.js and Tailwind CSS, providing a seamless music experience with album discovery, music playback controls, playlists, and more.
+[BG Remover](project-banner.png)
 
+## Overview
+
+BG Removr is a modern web application for removing image backgrounds, built using the MERN Stack (MongoDB, Express.js, React.js, Node.js) with integrated AI-based background removal. The project features a responsive design and offers a user-friendly experience with a sleek UI.
 
 
 ## Details
 
-This Spotify clone aims to replicate some of the core functionalities of the Spotify web application, giving users the ability to search, play, and control music, as well as explore albums and playlists.
-
-- **🎧 Playing & Controlling Music**
-- Play/Pause: Ability to start and stop music playback.
-- Seek Control: Navigate within the track by moving the seek bar.
-- Volume Control: Adjust volume with an intuitive slider.
-- Next/Previous Track: Skip to the next or previous track.
-
-- **🎶 Discovering Albums & Artists**
--Browse Albums: Explore albums based on categories or genres.
-
-- **🌈 User Interface & Navigation**
-- Responsive Design: Tailored for different devices using Tailwind CSS.
-- Smooth Navigation: Quick and easy navigation between pages.
-- Dark Mode: Sleek, dark-themed UI for a modern look.
+- **Home Page :** Directly upload and preview images, Learn more about the technology and the service.
+- **Pricing Page :** Get detailed pricing information based on usage and subscription options.
+- **Remover Page :** View the results of the background removal and download the processed images.
 
 ## Demo | Screenshots
 
+Seamlessly manage user authentication with a clean and simple registration and login interface.
+
+[Clerk Based Authentication](Clerk%201.png)
+[Clerk Based Authentication](Clerk%202.png)
+
+Upload images instantly with a user-friendly drag-and-drop interface and explore the service.
+
+[Home Page](Home.png)
+
+Clear and transparent pricing options tailored to your needs, with flexible subscription plans.
+
+[Pricing Page](Pricing.png)
+
+Preview and download your images with backgrounds removed using cutting-edge AI technology.
+
+[Remover Page](Result.png)
 
 ## Usage
 
-First, clone the project using the repositroy URL, then move to the Project folder then use the [npm](https://www.npmjs.com/) to install necessary packages & dependencies.
+First, clone the project using the repositroy URL, then move to the Project folder then use the [npm](https://www.npmjs.com/) to install necessary packages & dependencies for each side ( Client Side & Server Side).
 
 ```bash
 npm install
 ```
 
-Run the application using the following command:
+Run the application using the following command (for frontend):
 
 ```bash
 npm run dev
 ```
 
-After running the application, you can access the dashboard via the link provided in the console.
+then, the run the backend service using the following command : 
+
+```bash
+npm start
+```
+
+After running the application, you can access the dashboard via the link provided in the client side console.
 
 ## 🔗 Links
 
