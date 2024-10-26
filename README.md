@@ -1,6 +1,6 @@
 # Image Background AI Remover
 
-[BG Remover](project-banner.png)
+![BG Remover](./project-banner.png)
 
 ## Overview
 
@@ -17,20 +17,20 @@ BG Removr is a modern web application for removing image backgrounds, built usin
 
 Seamlessly manage user authentication with a clean and simple registration and login interface.
 
-[Clerk Based Authentication](Clerk%201.png)
-[Clerk Based Authentication](Clerk%202.png)
+![Clerk Based Authentication](./Clerk%201.png)
+![Clerk Based Authentication](./Clerk%202.png)
 
 Upload images instantly with a user-friendly drag-and-drop interface and explore the service.
 
-[Home Page](Home.png)
+![Home Page](./Home.png)
 
 Clear and transparent pricing options tailored to your needs, with flexible subscription plans.
 
-[Pricing Page](Pricing.png)
+![Pricing Page](./Pricing.png)
 
 Preview and download your images with backgrounds removed using cutting-edge AI technology.
 
-[Remover Page](Result.png)
+![Remover Page](./Result.png)
 
 ## Usage
 
