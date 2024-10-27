@@ -15,9 +15,7 @@ app.use(express.json());
 app.use(cors());
 
 // API Routes
-app.get('/', (req, res) => {
-    return res.send("API Route, Home Endpoint !");
-});
+app.get('/', (req, res) => res.send("API Route, Home Endpoint !"));
 
 
 // Server Listening
