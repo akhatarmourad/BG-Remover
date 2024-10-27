@@ -16,7 +16,7 @@ app.use(cors());
 
 // API Routes
 app.get('/', (req, res) => {
-    res.send("API Route, Home Endpoint !");
+    return res.send("API Route, Home Endpoint !");
 });
 
 
