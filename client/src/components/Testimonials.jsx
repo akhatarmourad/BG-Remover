@@ -12,7 +12,7 @@ export default function Testimonials() {
                 testimonialsData.map((review, index) => {
                     return (
                         <div key={index} className='bg-white rounded-xl drop-shadow-md p-5 m-auto max-w-lg'>
-                            <quote className='text-gray-500'>{review.text}</quote>
+                            <p className='text-gray-500'>{review.text}</p>
                             <div className="flex items-center gap-3 mt-6">
                                 <img src={review.image} className='w-9 rounded-full' />
                                 <div>

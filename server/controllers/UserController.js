@@ -58,7 +58,7 @@ const clerckWebhooks = async (request, response) => {
     }
     catch(error) {
         console.log(error.message);
-        response.json({sucess: false, message: error.message})
+        response.json({success: false, message: error.message})
     }
 }
 
