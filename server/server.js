@@ -2,6 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import 'dotenv/config';
 import connectDB from './configs/mongodb.js';
+import userRouter from './routes/UserRoutes.js';
 
 
 // App Configuration
@@ -16,7 +17,7 @@ app.use(cors());
 
 // API Routes
 app.get('/', (req, res) => res.send("API Route, Home Endpoint !"));
-
+app.use('/api/user', userRouter);
 
 // Server Listening
 app.listen(PORT, () => {
