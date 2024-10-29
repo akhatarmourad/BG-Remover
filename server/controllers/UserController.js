@@ -1,5 +1,5 @@
 import { Svix, Webhook } from "svix";
-import UserModel from "../models/UserModel";
+import UserModel from "../models/UserModel.js";
 
 // API Controller to manage Clerck User with MongoDB Database
 const clerckWebhooks = async (request, response) => {
